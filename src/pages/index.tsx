@@ -47,7 +47,7 @@ const StreamerListing: React.FC<{ streamer: StreamerQueryResult[number] }> = ({
             <div className="text-black text-md dark:text-white group-hover:text-white"></div>
           </div>
           <a
-            className="absolute inset-0" target="_blank" rel="noopener"
+            className="absolute inset-0"
             href={streamer.url}></a>
         </div>
       </div>
